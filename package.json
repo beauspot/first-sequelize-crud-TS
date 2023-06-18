@@ -1,0 +1,11 @@
+{
+  "name": "first_ts_sequelize_crud",
+  "version": "1.0.0",
+  "description": "CRUD Rest API with Sequelize and Typescript in Postgres.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beau Iyere",
+  "license": "ISC"
+}
