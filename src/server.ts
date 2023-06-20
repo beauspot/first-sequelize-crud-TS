@@ -25,7 +25,7 @@ app.use(compression());
 app.use(cookieprser());
 app.use(helmet());
 app.use(hpp());
-// app.use(xss());
+//app.use(xss());
 app.use(
   cors({
     credentials: true,
