@@ -1,10 +1,12 @@
 import { Sequelize } from "sequelize-typescript";
 import dotenv from "dotenv";
+require("ts-node/register");
+
 
 dotenv.config();
 // import your models here
 
-const connection = new Sequelize({
+export const connection = new Sequelize({
   dialect: "postgres",
   host: "localhost",
   username: process.env.DB_USER,
@@ -15,4 +17,3 @@ const connection = new Sequelize({
 });
 
 //console.log(connection);
-export default connection;
